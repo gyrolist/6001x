@@ -1,0 +1,10 @@
+# Assumption : varA and varB are both predefined and can be either number or string
+if type(varA) == type('a') or type(varB) == type('a'):
+    print("string involved")
+if type(varA) == type(1) and type(varB) == type(1):
+    if varA == varB:
+        print("equal")
+    elif varA < varB:
+        print("smaller")
+    else:
+        print("bigger")
